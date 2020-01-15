@@ -9,7 +9,7 @@
 - 支持设置点击状态
 
 ### 展示
-<img src="https://images.gitee.com/uploads/images/2019/1223/202510_5acc92c4_1143485.png" width="350"/>
+<img src="https://github.com/ltym2016/UIButton/blob/master/image/WX20200115-145353%402x.png" width="350"/>
 
 ### 使用方式
 ```
