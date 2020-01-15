@@ -24,7 +24,7 @@ allprojects {
 ### Step 2. Add the dependency
 ```
 dependencies {
-    implementation 'com.github.ltym2016:UIButton:Tag'
+    implementation 'com.github.ltym2016:UIButton:1.0.0'
 }
 ```
 
