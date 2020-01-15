@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.samluys.uibutton.UIButton
+        android:id="@+id/UIButton"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="圆角是短边的一半"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:ui_cornerRadius="20dp"
+        app:ui_solidColor="@color/colorPrimary" />
+
+    <com.samluys.uibutton.UIButton
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="固定圆角"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:ui_cornerRadius="5dp"
+        app:ui_solidColor="@color/colorPrimary" />
+
+
+    <com.samluys.uibutton.UIButton
+        android:id="@+id/UIButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="设置填充色"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toEndOf="@+id/UIButton3"
+        app:layout_constraintTop_toBottomOf="@+id/UIButton"
+        app:ui_cornerRadius="5dp"
+        app:ui_solidColor="@color/colorAccent" />
+
+    <com.samluys.uibutton.UIButton
+        android:id="@+id/UIButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="设置边框颜色和宽度"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UIButton"
+        app:ui_cornerRadius="5dp"
+        app:ui_solidColor="@android:color/transparent"
+        app:ui_strokeColor="@color/colorAccent"
+        app:ui_strokeWidth="1dp"/>
+
+    <com.samluys.uibutton.UIButton
+        android:id="@+id/UIButton4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="指定"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UIButton3"
+        app:ui_cornerRadius="15dp"
+        app:ui_cornerPosition="topLeft"
+        app:ui_solidColor="@android:color/transparent"
+        app:ui_strokeColor="@color/colorAccent"
+        app:ui_strokeWidth="1dp"/>
+
+    <com.samluys.uibutton.UIButton
+        android:id="@+id/UIButton5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="方向"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/UIButton4"
+        app:layout_constraintTop_toBottomOf="@+id/UIButton3"
+        app:ui_cornerPosition="topRight"
+        app:ui_cornerRadius="15dp"
+        app:ui_solidColor="@android:color/transparent"
+        app:ui_strokeColor="@color/colorAccent"
+        app:ui_strokeWidth="1dp" />
+
+    <com.samluys.uibutton.UIButton
+        android:id="@+id/UIButton6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="角"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/UIButton4"
+        app:layout_constraintTop_toBottomOf="@+id/UIButton4"
+        app:ui_cornerPosition="bottomRight"
+        app:ui_cornerRadius="15dp"
+        app:ui_solidColor="@android:color/transparent"
+        app:ui_strokeColor="@color/colorAccent"
+        app:ui_strokeWidth="1dp" />
+
+    <com.samluys.uibutton.UIButton
+        android:id="@+id/UIButton7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="圆"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UIButton4"
+        app:ui_cornerRadius="15dp"
+        app:ui_cornerPosition="bottomLeft"
+        app:ui_solidColor="@android:color/transparent"
+        app:ui_strokeColor="@color/colorAccent"
+        app:ui_strokeWidth="1dp"/>
+
+
+    <com.samluys.uibutton.UIButton
+        android:id="@+id/UIButton8"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="圆形/背景渐变"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UIButton7"
+        app:ui_cornerRadius="50dp"
+        app:ui_startColor="@android:color/holo_blue_bright"
+        app:ui_centerColor="@android:color/holo_orange_dark"
+        app:ui_endColor="@color/colorAccent"
+        app:ui_strokeColor="@color/colorAccent"
+        app:ui_orientation="LEFT_RIGHT"
+        app:ui_strokeWidth="2dp"/>
+
+    <com.samluys.uibutton.UIButton
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="点击状态反馈"
+        android:textColor="@android:color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/UIButton7"
+        app:ui_cornerRadius="5dp"
+        app:ui_activeEnable="true"
+        app:ui_solidColor="@color/colorPrimary" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
