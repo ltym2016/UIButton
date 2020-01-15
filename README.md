@@ -11,7 +11,24 @@
 ### 展示
 <img src="https://github.com/ltym2016/UIButton/blob/master/image/WX20200115-145353%402x.png" width="350"/>
 
-### 使用方式
+## 使用方式
+### Step 1. Add the JitPack repository to your build file
+```
+allprojects {
+        repositories {
+            ...
+            maven { url 'https://jitpack.io' }
+    }
+}
+```
+### Step 2. Add the dependency
+```
+dependencies {
+    implementation 'com.github.ltym2016:UIButton:Tag'
+}
+```
+
+### XML
 ```
 <com.qianfanyun.uilib.widget.button.QFUIButton
         android:id="@+id/button"
