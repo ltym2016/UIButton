@@ -30,7 +30,7 @@ dependencies {
 
 ### XML
 ```
-<com.qianfanyun.uilib.widget.button.QFUIButton
+<com.samluys.uibutton.UIButton
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
